@@ -1,6 +1,6 @@
 # SitioWebConcesionaria
 
 <p align="center">
-  <img src="cifrado%20cesar%20ejemplo.jpg" alt="Cifrado César">
+  <img src="concesionaria_ejemplo.jpg" alt="Cifrado César">
 </p>
 
