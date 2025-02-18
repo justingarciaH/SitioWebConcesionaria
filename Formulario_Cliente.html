@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="estiloConcesionariaFormulario.css" />
+    <title>Contactanos</title>
+
+</head>
+
+<body>
+    <div class="encabezado">
+
+
+        <video class="videoformulario" muted autoplay loop>
+            <source src="fondoformulario.mp4" type="video/mp4">
+        </video>
+
+        <header class="barraploma">
+
+            <nav class="navEncabezado">
+                <ul class="lista">
+
+                    <li class="enlistar">
+                        <div class="menulista">
+                            <div class="alineacion_contenido">
+                                <img src="tablero.svg" class="iconoprincipal" width="50px" height="50px">
+                                <a class="Despliegue">MENÚ</a>
+
+                            </div>
+                        </div>
+
+                        <ul class="mostrar">
+                            <li class="lista_dentro">
+
+                                <a href="/Parcial Concesionaria.html" class="Despliegue_dentro">
+                                    <img src="home.svg" class="imagenesiconos" width="40px" height="40px">
+                                    Inicio</a>
+
+                            </li>
+
+
+                            <li class="lista_dentro">
+                                <a href="/Modelos Concesionaria.html" class="Despliegue_dentro">
+                                    <img src="car.svg" class="imagenesiconos" width="40px" height="40px">
+                                    Modelos</a>
+
+                            </li>
+
+                            <li class="lista_dentro">
+                                <a href="/Informacion.html" class="Despliegue_dentro">
+                                    <img src="info.svg" class="imagenesiconos" width="40px" height="40px">
+                                    Información</a>
+
+                            </li>
+
+                            <li class="lista_dentro">
+                                <a href="/Formulario_Cliente.html" class="Despliegue_dentro">
+                                    <img src="contact.svg" class="imagenesiconos" width="40px" height="40px">
+                                    Contacto</a>
+
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="placa-logo">
+                    <img src="placa.jpg">
+                </div>
+            </nav>
+        </header>
+
+
+
+        <div class="capa">
+
+            <form class="form" id="formulario" onsubmit="ValidarEnvio()">
+                <h2>Datos para el envío</h2>
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="input" required title="Por favor, ingrese su nombre">
+                </div>
+                <div class="fecha_nacimiento">
+                    <label for="fecha_nacimiento">Fecha de nacimiento (opcional)</label>
+                    <input type="text" id="fecha_nacimiento" class="input">
+                </div>
+                <div class="apellido">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" class="input" required title="Por favor, ingrese su apellido">
+                </div>
+                <div class="mail">
+                    <label for="mail">Mail</label>
+                    <input type="text" id="mail" class="input" required title="Por favor, ingrese su e-mail">
+                </div>
+
+                <div class="pais">
+                    <label for="pais">País: </label>
+                    <select id="pais" class="input" required title="Por favor, seleccione un país">
+                        <option selected    >Ecuador</option>
+                        <option>Argentina</option>
+                        <option>Brasil</option>
+                        <option>Estados Unidos</option>
+                        <option>otro</option>
+
+                    </select>
+                </div>
+
+                <div class="modelos">
+                    <label for="modelos">Modelo de preferencia (opcional): </label>
+                    <select id="modelos" class="input">
+                        <option>Nissan Skyline</option>
+                        <option>Honda S2000</option>
+                        <option>Dodge Charger 1970</option>
+                        <option>Mitsubishi Eclipse Spyder</option>
+                        <option>Toyota Supra 1994</option>
+                        <option>Plymouth Road Runner GTX 1970</option>
+                        <option selected>Chevrolet Chevelle 1970 SS</option>
+                        <option>Aún no he dedicido</option>
+
+                    </select>
+                </div>
+                <div class="telefono">
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" id="telefono" class="input">
+                </div>
+                <div class="direccion">
+                    <label for="direccion">Dirección (opcional)</label>
+                    <textarea rows="2" cols="10" id="direccion" class="input"></textarea>
+                </div>
+                <div class="descripcion">
+                    <label for="descripcion">Descripción (opcional)</label>
+                    <textarea rows="4" cols="10" id="descripcion" class="input"></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" class="subir" value="Enviar" class="input">
+                </div>
+            </form>
+        </div>
+        <script src="iconos.js"></script>
+
+    </div>
+</body>
+
+</html>

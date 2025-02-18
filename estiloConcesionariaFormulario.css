@@ -1,0 +1,256 @@
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
+  font-family: Arial, sans-serif;
+
+}
+
+.videoformulario {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+
+.encabezado {
+  width: 100%;
+  height: 1200px;
+  position: relative;
+}
+
+
+.barraploma {
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0 4px 5px gold;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+
+}
+
+.placa-logo img {
+  width: 160px;
+  height: 75px;
+  position: absolute;
+  right: 20px;
+}
+
+
+.navEncabezado {
+  display: flex;
+}
+
+.navEncabezado a {
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+
+}
+
+.lista {
+  width: 20%;
+  border-radius: 0 16px 16px 0;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: -2px;
+
+}
+
+.enlistar {
+  overflow: hidden;
+}
+
+.Despliegue {
+  font-size: 20px;
+  padding: 25px 0;
+  text-decoration: none;
+}
+
+.Despliegue_dentro {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.lista_dentro {
+  width: 255px;
+  border-radius: 6px;
+  padding-top: 15px;
+}
+
+
+.lista_dentro:hover {
+  width: 255px;
+  box-shadow: 0 4px 0px gold;
+}
+
+
+.tablero .iconoprincipal {
+  transform: rotate(90deg);
+}
+
+.iconoprincipal {
+  transform: transform .3s;
+}
+
+.mostrar {
+  width: 80%;
+  border-left: 2px solid #303440;
+  list-style: none;
+  /* para quitar el puntito de la lista*/
+  transition: height .4s;
+  height: 0;
+}
+
+.alineacion_contenido {
+  display: flex;
+  align-items: center;
+
+}
+
+.alineacion_contenido:hover {
+  background-color: rgba(245, 222, 179, 0.608);
+}
+
+/*CODIGO FORMULARIO*/
+.body_formulario {
+  display: flex;
+
+}
+
+.capa {
+  position: relative;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 70%;
+}
+
+
+.form {
+  position: relative;
+  background-color: aliceblue;
+  z-index: 1;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: 70%;
+  max-width: 800px;
+  /*padding: arriba derecha abajo izquierda; */
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 2px;
+}
+
+.form h2 {
+  font-size: 35px;
+  color: #895637;
+  margin-bottom: 30px;
+}
+
+.form {
+  color: #895637;
+}
+
+
+.nombre {
+  width: 300;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+  float: left;
+}
+
+.fecha_nacimiento {
+  width: 300;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  float: right;
+}
+
+.apellido {
+  width: 300;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  float: left;
+}
+
+.mail {
+  width: 300;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  float: right;
+}
+
+.pais {
+  width: 300;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  float: left;
+}
+
+.modelos {
+  width: 300;
+  font-size: 20px;
+  margin-top: 30px;
+  float: right;
+}
+
+.telefono {
+  width: 300;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  float: left;
+}
+
+.direccion {
+  width: 300;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  float: right;
+}
+
+.descripcion {
+  width: 300;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  float: left;
+}
+
+.submit {
+  margin-top: 50px;
+  margin-right: 100px;
+  float: right;
+}
+
+.input {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  margin-top: 7px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #895637b0;
+}
+
+.subir {
+  background: #895637b0;
+  font-size: 20px;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+}
